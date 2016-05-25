@@ -9,6 +9,8 @@ branch: gh-pages
 title: "Portfolio: ON Semiconductor"
 subTitle: Banners and Netmercials
 
+baseUrl: "http://mcbru.github.io/onsemi-portfolio"
+
 # The left menu bar
 menu:
   sections:
@@ -19,24 +21,26 @@ menu:
             text: Campaign 2
             # You can use relative urls
             relativeUrl: index.html
-          campaign:
-            text: Campaign 1
-            relativeUrl: 2016-1.html
+          # campaign:
+          #   text: Campaign 1
+          #   relativeUrl: 2016-1.html
             # Or absolute urls
             # absoluteUrl: https://example.com
-          campaign2014:
-            text: 2014-4
-            relativeUrl: 2014-4.html
+      #     campaign2014:
+      #       text: 2014-4
+      #       relativeUrl: 2014-4.html
       2015:
         name: 2015
         items:
           home:
-            text: Campaign 2
-            # You can use relative urls
-            relativeUrl: index.html
-      2014:
-        name: 2014
-        items:
-          home:
-            text: Campaign 4
-            relativeUrl: 2014-4.html
+            text: Campaign 3
+            relativeUrl: 2015-3.html
+          two:
+            text: Campaign 2B
+            relativeUrl: 2015-2b.html
+      # 2014:
+      #   name: 2014
+      #   items:
+      #     home:
+      #       text: Campaign 4
+      #       relativeUrl: 2014-4.html
